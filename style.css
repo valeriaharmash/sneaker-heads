@@ -27,3 +27,40 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+    background-image: url('public/Background.png');
+    background-repeat: no-repeat;
+  }
+
+p {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: white;
+    background-color:lightblue;
+    border: solid red;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+img {
+      border:2px solid #fff;
+      box-shadow: 10px 10px 5px blueviolet;
+      -moz-box-shadow: 10px 10px 5px blue;
+      -webkit-box-shadow: 10px 10px 5px blue;
+      -khtml-box-shadow: 10px 10px 5px blue;
+}
+
+h1{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+    background-image: linear-gradient(red, yellow);
+    border-radius: 20px;
+    padding: 20px;
+}
